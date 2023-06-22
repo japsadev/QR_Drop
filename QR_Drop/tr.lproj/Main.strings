@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "        Generate"; ObjectID = "0f8-85-Gom"; */
+"0f8-85-Gom.normalTitle" = "        Oluştur";
+
+/* Class = "UILabel"; text = "Enter your website or text"; ObjectID = "Gzi-xh-yqw"; */
+"Gzi-xh-yqw.text" = "Websitesi veya mesaj girin";
+
+/* Class = "UIButton"; normalTitle = "         Back To Menu"; ObjectID = "HVM-IJ-b2k"; */
+"HVM-IJ-b2k.normalTitle" = "         Menüye Dön";
+
+/* Class = "UILabel"; text = "Dark Mode"; ObjectID = "IXf-AP-Rwd"; */
+"IXf-AP-Rwd.text" = "Karanlık Mode";
+
+/* Class = "UIButton"; normalTitle = "         Feedback"; ObjectID = "K8r-xt-5je"; */
+"K8r-xt-5je.normalTitle" = "         Geribildirim";
+
+/* Class = "UIButton"; normalTitle = "       Save QR"; ObjectID = "Ucg-pf-mo9"; */
+"Ucg-pf-mo9.normalTitle" = "       QR Kaydet";
+
+/* Class = "UIButton"; normalTitle = "         Generate"; ObjectID = "UnR-Cg-fbf"; */
+"UnR-Cg-fbf.normalTitle" = "         Oluştur";
+
+/* Class = "UIButton"; normalTitle = "       About"; ObjectID = "UoY-mX-CHW"; */
+"UoY-mX-CHW.normalTitle" = "       Hakkımızda";
+
+/* Class = "UIButton"; normalTitle = "          Back To Scan"; ObjectID = "Ydp-bF-frD"; */
+"Ydp-bF-frD.normalTitle" = "          Taramaya Dön";
+
+/* Class = "UIButton"; normalTitle = "        QR Scan"; ObjectID = "dKb-GX-rhV"; */
+"dKb-GX-rhV.normalTitle" = "        QR Tara";
+
+/* Class = "UILabel"; text = "Hello! Kami Software is a pioneer of creative mobile applications.\nWe bring innovative ideas to life and prioritize user experience.\nWe offer solutions for your mobile application development needs.\n\n\nAdvanced Technology, Unlimited Creativity"; ObjectID = "eY0-mv-4FA"; */
+"eY0-mv-4FA.text" = "Merhaba! Kami Yazılım, yaratıcı mobil uygulamaların öncüsüdür.\nYenilikçi fikirleri hayata geçiriyor, kullanıcı deneyimini ön planda tutuyoruz.\nMobil uygulama geliştirme ihtiyaçlarınıza çözümler sunuyoruz.\n\n\nİleri Teknoloji, Sınırsız Yaratıcılık";
+
+/* Class = "UIButton"; normalTitle = "        Settings"; ObjectID = "h0R-iD-iEy"; */
+"h0R-iD-iEy.normalTitle" = "        Ayarlar";
+
+/* Class = "UILabel"; text = "Start scanning QR code"; ObjectID = "uQJ-jC-SwC"; */
+"uQJ-jC-SwC.text" = "QR kodunu taramaya başlayın";
+
+/* Class = "UIButton"; normalTitle = "         Back To Menu"; ObjectID = "zyl-Xm-2A6"; */
+"zyl-Xm-2A6.normalTitle" = "         Menüye Dön";

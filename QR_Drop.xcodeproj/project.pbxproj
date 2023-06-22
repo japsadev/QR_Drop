@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C94F75F2A3A2097003A7908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C94F75E2A3A2097003A7908 /* AppDelegate.swift */; };
+		3C94F7612A3A2097003A7908 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C94F7602A3A2097003A7908 /* SceneDelegate.swift */; };
+		3C94F7632A3A2097003A7908 /* ViewControllerFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C94F7622A3A2097003A7908 /* ViewControllerFirst.swift */; };
+		3C94F7662A3A2097003A7908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C94F7642A3A2097003A7908 /* Main.storyboard */; };
+		3C94F7682A3A2097003A7908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C94F7672A3A2097003A7908 /* Assets.xcassets */; };
+		3C94F76B2A3A2097003A7908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C94F7692A3A2097003A7908 /* LaunchScreen.storyboard */; };
+		3CBE9F7B2A3B55AD001E8A65 /* ViewControllerSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE9F7A2A3B55AD001E8A65 /* ViewControllerSecond.swift */; };
+		3CBE9F7E2A3B82CA001E8A65 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CBE9F802A3B82CA001E8A65 /* Localizable.strings */; };
+		3CBE9F8D2A3BC4C3001E8A65 /* qr code scanning.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3CBE9F8C2A3BC4C3001E8A65 /* qr code scanning.gif */; };
+		3CBE9F8F2A3BC4FB001E8A65 /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE9F8E2A3BC4FB001E8A65 /* gifLoader.swift */; };
+		3CBE9F972A3C5D56001E8A65 /* ViewControllerThird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE9F962A3C5D56001E8A65 /* ViewControllerThird.swift */; };
+		3CBE9F9B2A3C8C99001E8A65 /* ViewControllerFourth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE9F9A2A3C8C99001E8A65 /* ViewControllerFourth.swift */; };
+		3CBE9F9E2A3CB420001E8A65 /* settings.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3CBE9F9C2A3CB420001E8A65 /* settings.gif */; };
+		3CBE9FA12A3CB6AE001E8A65 /* about.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3CBE9FA02A3CB6AE001E8A65 /* about.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C94F75B2A3A2097003A7908 /* QR_Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QR_Drop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C94F75E2A3A2097003A7908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C94F7602A3A2097003A7908 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C94F7622A3A2097003A7908 /* ViewControllerFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFirst.swift; sourceTree = "<group>"; };
+		3C94F7652A3A2097003A7908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C94F7672A3A2097003A7908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C94F76A2A3A2097003A7908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C94F76C2A3A2097003A7908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBE9F7A2A3B55AD001E8A65 /* ViewControllerSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSecond.swift; sourceTree = "<group>"; };
+		3CBE9F7F2A3B82CA001E8A65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3CBE9F8C2A3BC4C3001E8A65 /* qr code scanning.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "qr code scanning.gif"; sourceTree = "<group>"; };
+		3CBE9F8E2A3BC4FB001E8A65 /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
+		3CBE9F962A3C5D56001E8A65 /* ViewControllerThird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThird.swift; sourceTree = "<group>"; };
+		3CBE9F9A2A3C8C99001E8A65 /* ViewControllerFourth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFourth.swift; sourceTree = "<group>"; };
+		3CBE9F9C2A3CB420001E8A65 /* settings.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = settings.gif; sourceTree = "<group>"; };
+		3CBE9FA02A3CB6AE001E8A65 /* about.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = about.gif; sourceTree = "<group>"; };
+		3CBE9FA22A3CF14C001E8A65 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		3CBE9FA32A3CF14C001E8A65 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C94F7582A3A2097003A7908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C94F7522A3A2097003A7908 = {
+			isa = PBXGroup;
+			children = (
+				3C94F75D2A3A2097003A7908 /* QR_Drop */,
+				3C94F75C2A3A2097003A7908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C94F75C2A3A2097003A7908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C94F75B2A3A2097003A7908 /* QR_Drop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C94F75D2A3A2097003A7908 /* QR_Drop */ = {
+			isa = PBXGroup;
+			children = (
+				3C94F75E2A3A2097003A7908 /* AppDelegate.swift */,
+				3C94F7602A3A2097003A7908 /* SceneDelegate.swift */,
+				3C94F7642A3A2097003A7908 /* Main.storyboard */,
+				3C94F7622A3A2097003A7908 /* ViewControllerFirst.swift */,
+				3CBE9F7A2A3B55AD001E8A65 /* ViewControllerSecond.swift */,
+				3CBE9F962A3C5D56001E8A65 /* ViewControllerThird.swift */,
+				3CBE9F9A2A3C8C99001E8A65 /* ViewControllerFourth.swift */,
+				3CBE9F8C2A3BC4C3001E8A65 /* qr code scanning.gif */,
+				3CBE9F9C2A3CB420001E8A65 /* settings.gif */,
+				3CBE9FA02A3CB6AE001E8A65 /* about.gif */,
+				3C94F7672A3A2097003A7908 /* Assets.xcassets */,
+				3C94F7692A3A2097003A7908 /* LaunchScreen.storyboard */,
+				3C94F76C2A3A2097003A7908 /* Info.plist */,
+				3CBE9F802A3B82CA001E8A65 /* Localizable.strings */,
+				3CBE9F8E2A3BC4FB001E8A65 /* gifLoader.swift */,
+			);
+			path = QR_Drop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C94F75A2A3A2097003A7908 /* QR_Drop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C94F76F2A3A2097003A7908 /* Build configuration list for PBXNativeTarget "QR_Drop" */;
+			buildPhases = (
+				3C94F7572A3A2097003A7908 /* Sources */,
+				3C94F7582A3A2097003A7908 /* Frameworks */,
+				3C94F7592A3A2097003A7908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QR_Drop;
+			packageProductDependencies = (
+			);
+			productName = QR_Drop;
+			productReference = 3C94F75B2A3A2097003A7908 /* QR_Drop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C94F7532A3A2097003A7908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3C94F75A2A3A2097003A7908 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C94F7562A3A2097003A7908 /* Build configuration list for PBXProject "QR_Drop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 3C94F7522A3A2097003A7908;
+			packageReferences = (
+			);
+			productRefGroup = 3C94F75C2A3A2097003A7908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C94F75A2A3A2097003A7908 /* QR_Drop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C94F7592A3A2097003A7908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C94F76B2A3A2097003A7908 /* LaunchScreen.storyboard in Resources */,
+				3CBE9FA12A3CB6AE001E8A65 /* about.gif in Resources */,
+				3CBE9F8D2A3BC4C3001E8A65 /* qr code scanning.gif in Resources */,
+				3CBE9F7E2A3B82CA001E8A65 /* Localizable.strings in Resources */,
+				3C94F7682A3A2097003A7908 /* Assets.xcassets in Resources */,
+				3C94F7662A3A2097003A7908 /* Main.storyboard in Resources */,
+				3CBE9F9E2A3CB420001E8A65 /* settings.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C94F7572A3A2097003A7908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBE9F7B2A3B55AD001E8A65 /* ViewControllerSecond.swift in Sources */,
+				3CBE9F8F2A3BC4FB001E8A65 /* gifLoader.swift in Sources */,
+				3CBE9F972A3C5D56001E8A65 /* ViewControllerThird.swift in Sources */,
+				3C94F7632A3A2097003A7908 /* ViewControllerFirst.swift in Sources */,
+				3C94F75F2A3A2097003A7908 /* AppDelegate.swift in Sources */,
+				3CBE9F9B2A3C8C99001E8A65 /* ViewControllerFourth.swift in Sources */,
+				3C94F7612A3A2097003A7908 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C94F7642A3A2097003A7908 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C94F7652A3A2097003A7908 /* Base */,
+				3CBE9FA22A3CF14C001E8A65 /* tr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C94F7692A3A2097003A7908 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C94F76A2A3A2097003A7908 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3CBE9F802A3B82CA001E8A65 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CBE9F7F2A3B82CA001E8A65 /* en */,
+				3CBE9FA32A3CF14C001E8A65 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C94F76D2A3A2097003A7908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C94F76E2A3A2097003A7908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C94F7702A3A2097003A7908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QR_Drop/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app would like to use your camera to scan codes and text.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to work with your photo library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kami.QR-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C94F7712A3A2097003A7908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSWG4853R4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QR_Drop/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app would like to use your camera to scan codes and text.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to work with your photo library.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kami.QR-Drop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C94F7562A3A2097003A7908 /* Build configuration list for PBXProject "QR_Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C94F76D2A3A2097003A7908 /* Debug */,
+				3C94F76E2A3A2097003A7908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C94F76F2A3A2097003A7908 /* Build configuration list for PBXNativeTarget "QR_Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C94F7702A3A2097003A7908 /* Debug */,
+				3C94F7712A3A2097003A7908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C94F7532A3A2097003A7908 /* Project object */;
+}
