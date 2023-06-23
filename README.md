@@ -18,7 +18,7 @@ https://apps.apple.com/tr/app/qr-drop-scan-generate/id6450382749
 * Camera Permission and Alert
 * Saved QR Code Library Alert and Permission
 * Cross Platform
-* Live Vide
+* Live Video
 
 https://github.com/japsadev/QR_Drop/assets/62521215/dfcef0c7-c6eb-40a3-81d0-df6292814462
 
